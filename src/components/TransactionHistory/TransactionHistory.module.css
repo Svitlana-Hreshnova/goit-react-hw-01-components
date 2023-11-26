@@ -1,0 +1,39 @@
+.transactionHistory {
+    max-width: 400px;
+    border-collapse: collapse;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.transactionHistory:hover {
+    transform: scale(1.05);
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: blueviolet;
+    color: #f2f2f2;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 4px solid #000;
+}
+
+tr {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+}
